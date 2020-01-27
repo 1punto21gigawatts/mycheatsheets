@@ -8,8 +8,9 @@
 | ------------------------------------------ | ---------------------------------------------------------- |
 | git status                                 | Checking status of current git folder.                     |
 | git add <filename>                         | Adding a single file commit.                               |
-| git add --all                              | Add all new files and folders for commit. *                |
-| git commit -a -m "<message>"               | Commiting all changes with a comment.                      |
+| git add <filename> <filename>              | Adding multiple files for commit.                          |
+| git add .                                  | Add all new files and folders for commit. *                |
+| git commit -m "<message>"                  | Commiting all changes with a comment.                      |
 |                                            |                                                            |
 | **Push changes**                           |                                                            |
 | git push                                   | Push to the default remote repository.                     |
@@ -28,6 +29,7 @@
 | git merge <branch>                         | Merge another branch to your active branch.                |
 |                                            |                                                            |
 | **Logs**                                   |                                                            |
+| git log                                    | View the log of changes.                                   |  
 | git log --pretty=oneline                   | A nice way to view log.                                    |
 | git log --graph --oneline --decorate --all | Tree view of log.                                          |
 |                                            |                                                            |
